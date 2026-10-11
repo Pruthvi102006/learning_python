@@ -12,12 +12,12 @@ flattened_list =[number for row in list_of_lists for number in row]
 print(flattened_list)
 
 
-#Using list comprehension create the following list of tuples:
+#Question 3: Using list comprehension create the following list of tuples:
 tuples_list = [(i, 1, i**2) for i in range(11)]
 print(tuples_list)
 
 
-#Flatten the following list to a new list:
+#Question 4: Flatten the following list to a new list:
 countries = [[('Finland', 'Helsinki')], [('Sweden', 'Stockholm')], [('Norway', 'Oslo')]]
 flattened_countries = [country for sublist in countries for country in sublist]
 print(flattened_countries)
